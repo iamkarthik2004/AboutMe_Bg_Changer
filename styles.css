@@ -1,0 +1,78 @@
+body {
+    font-family: 'Gupter', serif;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    transition: background 0.3s; /* Smooth transition for background color change */
+}
+
+.gradient1 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Original gradient */
+}
+
+.gradient2 {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* New gradient */
+}
+
+.gradient3 {
+    background: linear-gradient(to right, #b9fbc0, #a0e7e5); /* Another gradient */
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+iframe {
+    border: 0;
+    width: 640px;
+    height: 818px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bg-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bg-button:hover {
+    background-color: #ff7e5f; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
